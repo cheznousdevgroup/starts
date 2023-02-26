@@ -25,3 +25,10 @@ const closeNav = () => {
 }
 
 closeBtn.addEventListener('click',  closeNav)
+
+// ÊMPECHER LE CLICK DROIT SUR MA PAGE WEB AVEC AJAX
+$(document).ready( function() {
+    $("body").on("contextmenu", function (e) {
+        return false;
+    });
+});
