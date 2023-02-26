@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 
 </head>
-<body>
+<!-- onmousedown="return false" onselectstart="return false" pour empêcher la selection de texte et copier/couper du texte present sur le site-->
+<body onmousedown="return false" onselectstart="return false">
     <nav>
         <div class="container nav__container">
             <a href="index.html"><h4>Geek Education</h4></a>
@@ -36,8 +37,8 @@
     <header>
        <div class="container header__container">
            <div class="header__left">
-               <h1>Developper vos competences pour progressé dans votre carrière</h1>
-               <p>Êtes-vous vraiment pationné de l'informatique et curieux d'en apprendre plus veillez...</p>
+               <h1>Développer vos compétences pour progresser dans votre carrière</h1>
+               <p>Êtes-vous vraiment passionné de l'informatique et curieux d'en apprendre plus veillez...</p>
                <a href="cours.html" class="btn btn-primary">Commencer</a>
            </div> 
            <div class="header__right">
@@ -58,7 +59,7 @@
             <div class="categories__left">
                 <h1>Catégories</h1>
                 <p>
-                    Les differents langages de programmation disponible ci-contre sont les plus demandés et fortements recommander pour ue base en programmation
+                    Les différents langages de programmation disponible ci-contre sont les plus demandés et fortement recommander pour une base en programmation
                 </p>
                 <a href="#" class="btn">En savoir plus</a>
             </div>
@@ -264,7 +265,7 @@
             <div class="footer__1">
                 <a href="index.html" class="footer__logo"><h4>Geek Education</h4></a>
                 <p>
-                    hjysdh djhdytujd hdhdythdy jgsj 
+                    Les difficultés ne sont pas faites pour <u style="border-bottom: 3px solid white; ">abbatre</u> mais pour être <u style="border-bottom: 3px solid white; ">abattues</u> 
                 </p>
         </div>
 
@@ -294,13 +295,13 @@
             </div>
             <ul class="footer__socials">
                 <li>
-                    <a href="#">fb</a>
+                    <a href="#">Facebook</a>
                 </li>
                 <li>
-                    <a href="#">ig</a>
+                    <a href="#">Instagram</a>
                 </li>
                 <li>
-                    <a href="#">tweet</a>
+                    <a href="#">Tweeter</a>
                 </li>
                 <li>
                     <a href="#">linkedin</a>
@@ -309,7 +310,7 @@
         </div>
     </div>
     <div class="footer__copyright">
-        <small>Copyright &copy; C. dev Group</small>
+        <small>Copyright &copy; C. Nous dev Group</small>
     </div>
     </footer>
 
@@ -332,6 +333,8 @@
             }
         });
     </script>
-
+    
+    <!-- script qui permet d'empêcher le click droit -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
